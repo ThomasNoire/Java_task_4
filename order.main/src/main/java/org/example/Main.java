@@ -9,6 +9,7 @@ import org.example.order.storage.OrderStorage;
 import java.util.List;
 
 public class Main {
+
     public static void main(String[] args) {
         OrderStorage orderStorage = new OrderStorage();
 

@@ -5,6 +5,7 @@ import org.example.order.order.product.Product;
 import java.util.List;
 
 public class OrderManager {
+
     public <T extends Product> void processOrders(List<T> orders) {
         orders.forEach(order -> {
             Runnable orderTask = () -> {
